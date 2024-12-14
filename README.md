@@ -1,5 +1,9 @@
 # VD04_Flask
  VD04. Знакомство с фреймворком Flask для веб-разработки. Знакомство с фреймворком Flask для веб-разработки
+
+[DZ_1_VD04_Data_Time_Flask.py](DZ_1_VD04_Data_Time_Flask.py)
+
+[DZ_2_VD04_Flask.py](DZ_2_VD04_Flask.py)
 # САЙТ из ПАПОК
 [6_Flask_Render_template.py](6_Flask_Suit_Render_template.py)
 
