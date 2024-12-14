@@ -8,12 +8,16 @@ app = Flask(__name__)
 
 # Декоратор для прописывания маршрута, url адресов функциям. Одна функция работает с одной web страницей
 @app.route("/") # Декоратор
-def Glavnay():
+def index():
     return render_template("index.html") # Возвращаем html файл
 
 @app.route("/2/") # Декоратор
-def second():
+def blog():
     return render_template("blog.html") # Возвращаем html файл
+
+@app.route("/3/") # Декоратор
+def contacts():
+    return render_template("contacts.html") # Возвращаем html файл
 
 # Проверяем работу приложения, запускаем его
 if __name__ == "__main__":
